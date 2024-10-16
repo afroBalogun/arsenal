@@ -1,10 +1,39 @@
 import React from "react"
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const  Brendon: React.FC = ({}) => {
+
+    gsap.registerPlugin(useGSAP, ScrollTrigger)
+    useGSAP(
+        () => {
+            gsap.timeline()
+            gsap.from('.brendon',{
+                opacity: 0,
+                duration: 1,
+            })
+
+            gsap.from('.rectangle',{
+                opacity: 0,
+                yPercent: -150,
+                duration: .5,
+                delay: .5
+            })
+
+            gsap.from('.about',{
+                opacity: 0,
+                yPercent: 150,
+                duration: .5,
+                delay: .5,
+                ease: "back"
+            })
+        })
+
     return (
-        <div className="h-screen">
+        <div className="h-screen brendon-container">
             <img src="images/brendon.png" alt="" 
-                className=" h-[82%]  relative left-[-19%]
+                className=" h-[82%]  relative left-[-19%] brendon
 
                 "
             />
@@ -13,7 +42,7 @@ const  Brendon: React.FC = ({}) => {
             </div>
 
             <img src="images/brendon-about.png" alt="" 
-                className="w-[53.3%] h-[37.8%] relative -top-[77.4%] left-[34.5%] "
+                className="w-[53.3%] h-[37.8%] relative -top-[77.4%] left-[34.5%] about"
             />
         </div>
         )
