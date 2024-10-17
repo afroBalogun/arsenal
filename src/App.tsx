@@ -57,7 +57,7 @@ export default function App() {
               snap: 1 / (sections.length - 1),
             },
           });
-        }, 1000); 
+        }, 2000); 
       }
     }
   }, [loading]);
