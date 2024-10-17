@@ -58,35 +58,35 @@ const Asante : React.FC<Props> = ({screenHeight}) => {
         })
     return(
         <div className="h-screen asante-container">
-            <img src="images/asante.png" alt="" 
+            <img src="images/asante.png" alt="Asante" 
                 className="relative h-full left-[20%] asante"
             />
-            <img src="images/asante-text.png" alt="" 
+            <img src="images/asante-text.png" alt="Asante-text" 
                 className="relative h-full neg"
                 style={{ top: `-${screenHeight}px` }}
 
             />
-            <img src="images/carter.png" alt="" 
+            <img src="images/carter.png" alt="Carter" 
                 className="relative h-full pos"
                 style={{ top: `-${2*screenHeight}px` }}
 
             />
-            <img src="images/philip.png" alt="" 
+            <img src="images/philip.png" alt="Philip" 
                 className="relative h-full neg"
                 style={{ top: `-${3*screenHeight}px` }}
 
             />
-            <img src="images/sanderson.png" alt="" 
+            <img src="images/sanderson.png" alt="Sanderson" 
                 className="relative h-full pos"
                 style={{ top: `-${4*screenHeight}px` }}
 
             />
-            <img src="images/scott.png" alt="" 
+            <img src="images/scott.png" alt="Scott" 
                 className="relative h-full neg"
                 style={{ top: `-${5*screenHeight}px` }}
 
             />
-            <img src="images/yankey-text.png" alt="" 
+            <img src="images/yankey-text.png" alt="Yankey-text" 
                 className="relative h-full pos"
                 style={{ top: `-${6*screenHeight}px` }}
 

@@ -35,15 +35,15 @@ const Saka : React.FC <Props> =({screenHeight}) => {
         })
     return(
         <div className="h-screen saka-container">
-            <img src="images/saka.png" alt="" 
+            <img src="images/saka.png" alt="Bukayo Saka" 
                 className="h-full "
             />
-            <img src="images/b.png" alt="" 
+            <img src="images/b.png" alt="B" 
                 className="h-screen relative b"
                 style={{ top: `-${screenHeight}px` }}
             />
 
-            <img src="images/2.png" alt="" 
+            <img src="images/2.png" alt="2" 
                 className="h-screen relative red2"
                 style={{ top: `-${2 * screenHeight}px` }}
             />

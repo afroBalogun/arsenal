@@ -30,7 +30,7 @@ const PaulDavis : React.FC =({}) => {
 
     return(
         <div className="w-full paul" ref = {Pauldavis}>
-            <img src="images/paul-davis.png" alt=""
+            <img src="images/paul-davis.png" alt="Paul Davis"
                 className="h-screen paul-davis"
             />
         </div>
