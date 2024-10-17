@@ -87,7 +87,7 @@ const David : React.FC = ({}) => {
                     className="w-40 oak"/>
                 </div>
             </article>
-            <img src="images/david.png" alt="David" 
+            <img src="images/static/david.png" alt="David" 
                 className="relative  h-full david"
                 style={{ top: `-${articleHeight}px` }}
 

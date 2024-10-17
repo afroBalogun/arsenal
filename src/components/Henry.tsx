@@ -87,12 +87,12 @@ const Henry : React.FC <Props> = ({screenHeight}) => {
                     className="font-light font-montserrat text-[.6em] uppercase audio-producer"
                 >Audio Producer</p>
             </div>
-            <img src="images/thierry.png" alt="Thierry Henry" 
+            <img src="images/static/thierry.png" alt="Thierry Henry" 
                 className="relative h-full henry"
                 style={{ top: `-${textHeight}px` }}
 
             />
-            <img src="images/vavavoom.png" alt="VAVAVOOM" 
+            <img src="images/static/vavavoom.png" alt="VAVAVOOM" 
                 className="relative h-full vavavoom"
                 style={{ top: `-${screenHeight + textHeight}px` }}
             />

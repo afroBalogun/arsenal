@@ -15,7 +15,7 @@ const History : React.FC <Props> = ({screenHeight}) => {
                 scrollTrigger :{
                     trigger: '.history',
                     start: "550% top",
-                },
+               },
                 opacity: 0,
                 duration: 1,
                 stagger: 0.5
@@ -36,17 +36,17 @@ const History : React.FC <Props> = ({screenHeight}) => {
     
     return(
         <div className="w-full h-screen flex flex-col items-center history">       
-            <img src="images/team.png" alt="Team" 
+            <img src="images/static/team.png" alt="Team" 
                 className="h-screen team"
             />
              <img
-                  src="images/history-made.png"
+                  src="images/static/history-made.png"
                   alt="History-made"
                   className="h-screen relative made team"
                   style={{ top: `-${screenHeight}px` }}
                 />
 
-             <img src="images/stars.png" alt="Stars" 
+             <img src="images/static/stars.png" alt="Stars" 
                  className="h-screen relative stars team"
                  style={{ top: `-${2 * screenHeight}px` }}
             />

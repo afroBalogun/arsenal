@@ -37,10 +37,10 @@ const Wright : React.FC <Props> =({screenHeight}) => {
 
     return (
         <div className="h-screen wright-container">
-            <img src="images/wright.png" alt="Ian Wright" 
+            <img src="images/static/wright.png" alt="Ian Wright" 
                 className="h-full wright"
             />
-            <img src="images/pure-vibes.png" alt="Pure-Vibes" 
+            <img src="images/static/pure-vibes.png" alt="Pure-Vibes" 
                 className="h-screen relative vibes"
                 style={{ top: `-${screenHeight}px` }}
             />

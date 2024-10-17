@@ -71,10 +71,10 @@ const Yankey : React.FC <Props> = ({screenHeight}) => {
 
     return (
         <div className="h-screen yankey-container">
-            <img src="images/yankey.png" alt="yankey" 
+            <img src="images/static/yankey.png" alt="yankey" 
                 className="h-full yankey z-10"
             />
-            <img src="images/trailblazer.png" alt="Trailblazer" 
+            <img src="images/static/trailblazer.png" alt="Trailblazer" 
                 className="h-full relative trailblazer"
                 style={{ top: `-${screenHeight}px` }}
             />
@@ -99,7 +99,7 @@ const Yankey : React.FC <Props> = ({screenHeight}) => {
                 >Academic</p>
             </div>
             
-            <img src="images/unapologetically.png" alt="Unapologetically" 
+            <img src="images/static/unapologetically.png" alt="Unapologetically" 
                 className="relative w-40  -left-[50px]"
                 style={{ top: `-${1.65 * screenHeight}px` }}
 
