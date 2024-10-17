@@ -57,7 +57,7 @@ export default function App() {
               snap: 1 / (sections.length - 1),
             },
           });
-        }, 1000); 
+        }, 5000); 
       }
     }
   }, [loading]);
@@ -74,7 +74,7 @@ export default function App() {
   return (
     <div
       ref={containerRef}
-      className="app w-full h-screen flex bg-white whitespace-nowrap overflow-x-visible overflow-y-hidden"
+      className="app w-full h-screen flex bg-white whitespace-nowrap overflow-x-visible overflow-y-"
     >
       <div className="min-w-[50%] flex-shrink-0 slide">
         <Brendon />
