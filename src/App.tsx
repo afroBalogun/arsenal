@@ -112,7 +112,7 @@ export default function App() {
         <Asante screenHeight={screenHeight} />
       </div>
 
-      <div className="min-w-[20%] flex-shrink-0 slide">
+      <div className="min-w-[30%] flex-shrink-0 slide">
         <Saka screenHeight={screenHeight} />
       </div>
     </div>
