@@ -57,7 +57,7 @@ export default function App() {
               snap: 1 / (sections.length - 1),
             },
           });
-        }, 5000); 
+        }, 1000); 
       }
     }
   }, [loading]);
@@ -74,7 +74,7 @@ export default function App() {
   return (
     <div
       ref={containerRef}
-      className="app w-full h-screen flex bg-white whitespace-nowrap overflow-x-visible overflow-y-"
+      className="app w-full h-screen flex bg-white whitespace-nowrap overflow-x-hidden overflow-y-hidden"
     >
       <div className="min-w-[50%] flex-shrink-0 slide">
         <Brendon />
@@ -112,7 +112,7 @@ export default function App() {
         <Asante screenHeight={screenHeight} />
       </div>
 
-      <div className="min-w-[30%] flex-shrink-0 slide">
+      <div className="min-w-[40%] flex-shrink-0 slide">
         <Saka screenHeight={screenHeight} />
       </div>
     </div>
