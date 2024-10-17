@@ -15,7 +15,7 @@ const Saka : React.FC <Props> =({screenHeight}) => {
             gsap.from('.b',{
                 scrollTrigger :{
                     trigger: '.saka-container',
-                    start: "870% top",
+                    start: "850% top",
                 },
                 opacity: 0,
                 duration: 1,
@@ -25,7 +25,7 @@ const Saka : React.FC <Props> =({screenHeight}) => {
             gsap.from('.red2',{
                 scrollTrigger :{
                     trigger: '.saka-container',
-                    start: "870% top",
+                    start: "850% top",
                 },
                 opacity: 0,
                 duration: 1,
