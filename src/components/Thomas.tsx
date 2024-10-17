@@ -42,7 +42,7 @@ const Thomas : React.FC <Props> =({}) => {
     );
     return(
         <div className=" h-screen  flex  items-center gap-0 thomas-container"> 
-            <img src="images/static/text-thomas.png" alt="Thomas"
+            <img src="static/images/text-thomas.png" alt="Thomas"
                 className="relative h-screen  -left-[14%] thomas-text
                     min-[370px]:-left-[13%]
                     min-[390px]:-left-[17%]
@@ -55,10 +55,10 @@ const Thomas : React.FC <Props> =({}) => {
                 "
             />
             <div className="w-1/3 galler-container flex flex-col items-center">
-                <img src="images/static/galler1.png" alt="GAller 1" 
+                <img src="static/images/galler1.png" alt="GAller 1" 
                     className="w-[80%]"
                 />
-                <img src="images/static/galler2.png" alt="GAller 12"
+                <img src="static/images/galler2.png" alt="GAller 12"
                     className="w-[80%]"
                 />
             </div>

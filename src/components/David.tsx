@@ -83,11 +83,11 @@ const David : React.FC = ({}) => {
                 >I<span className="text-base">an</span> W<span className="text-base">right</span></p>
                 </div>
                 <div className="article-img">
-                    <img src="images/oak-estate.png" alt="Oak Estate" 
+                    <img src="static/images/oak-estate.png" alt="Oak Estate" 
                     className="w-40 oak"/>
                 </div>
             </article>
-            <img src="images/static/david.png" alt="David" 
+            <img src="static/images/david.png" alt="David" 
                 className="relative  h-full david"
                 style={{ top: `-${articleHeight}px` }}
 

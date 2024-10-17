@@ -66,7 +66,7 @@ export default function App() {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
-        <img src="images/football.gif" alt="Loading..." className="" />
+        <img src="static/images/football.gif" alt="Loading..." className="" />
       </div>
     );
   }

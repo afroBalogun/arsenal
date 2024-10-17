@@ -58,35 +58,35 @@ const Asante : React.FC<Props> = ({screenHeight}) => {
         })
     return(
         <div className="h-screen asante-container">
-            <img src="images/static/asante.png" alt="Asante" 
+            <img src="static/images/asante.png" alt="Asante" 
                 className="relative h-full left-[20%] asante"
             />
-            <img src="images/static/asante-text.png" alt="Asante-text" 
+            <img src="static/images/asante-text.png" alt="Asante-text" 
                 className="relative h-full neg"
                 style={{ top: `-${screenHeight}px` }}
 
             />
-            <img src="images/static/carter.png" alt="Carter" 
+            <img src="static/images/carter.png" alt="Carter" 
                 className="relative h-full pos"
                 style={{ top: `-${2*screenHeight}px` }}
 
             />
-            <img src="images/static/philip.png" alt="Philip" 
+            <img src="static/images/philip.png" alt="Philip" 
                 className="relative h-full neg"
                 style={{ top: `-${3*screenHeight}px` }}
 
             />
-            <img src="images/static/sanderson.png" alt="Sanderson" 
+            <img src="static/images/sanderson.png" alt="Sanderson" 
                 className="relative h-full pos"
                 style={{ top: `-${4*screenHeight}px` }}
 
             />
-            <img src="images/static/scott.png" alt="Scott" 
+            <img src="static/images/scott.png" alt="Scott" 
                 className="relative h-full neg"
                 style={{ top: `-${5*screenHeight}px` }}
 
             />
-            <img src="images/static/yankey-text.png" alt="Yankey-text" 
+            <img src="static/images/yankey-text.png" alt="Yankey-text" 
                 className="relative h-full pos"
                 style={{ top: `-${6*screenHeight}px` }}
 

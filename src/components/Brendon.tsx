@@ -32,7 +32,7 @@ const  Brendon: React.FC = ({}) => {
 
     return (
         <div className="h-screen brendon-container">
-            <img src="images/static/brendon.png" alt="Brendon Batson" 
+            <img src="static/images/brendon.png" alt="Brendon Batson" 
                 className=" h-[82%]  relative left-[-19%] brendon
 
                 "
@@ -41,7 +41,7 @@ const  Brendon: React.FC = ({}) => {
             <div className="rectangle w-[55%] bg-[#a91111c7] h-[50%] relative top-[-74%] left-[5%] ">
             </div>
 
-            <img src="images/static/brendon-about.png" alt="Brendon-About" 
+            <img src="static/images/brendon-about.png" alt="Brendon-About" 
                 className="w-[53.3%] h-[37.8%] relative -top-[77.4%] left-[34.5%] about"
             />
         </div>
