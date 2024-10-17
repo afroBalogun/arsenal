@@ -74,7 +74,7 @@ export default function App() {
   return (
     <div
       ref={containerRef}
-      className="app w-full h-screen flex bg-white whitespace-nowrap overflow-x-auto overflow-y-hidden"
+      className="app w-full h-screen flex bg-white whitespace-nowrap overflow-x-visible overflow-y-hidden"
     >
       <div className="min-w-[50%] flex-shrink-0 slide">
         <Brendon />
