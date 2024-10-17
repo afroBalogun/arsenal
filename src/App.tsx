@@ -57,7 +57,7 @@ export default function App() {
               snap: 1 / (sections.length - 1),
             },
           });
-        }, 2000); 
+        }, 3000); 
       }
     }
   }, [loading]);
@@ -112,7 +112,7 @@ export default function App() {
         <Asante screenHeight={screenHeight} />
       </div>
 
-      <div className="min-w-[40%] flex-shrink-0 slide">
+      <div className="min-w-[30%] flex-shrink-0 slide">
         <Saka screenHeight={screenHeight} />
       </div>
     </div>
