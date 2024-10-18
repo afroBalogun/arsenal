@@ -29,7 +29,7 @@ export default function App() {
     window.addEventListener("resize", handleResize);
 
     //  loading delay
-    setTimeout(() => setLoading(false), 4000); 
+    // setTimeout(() => setLoading(false), 4000); 
 
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -98,11 +98,15 @@ export default function App() {
       <div className="flex justify-center items-center h-screen flex-col">
         <div className="font-montserrat flex items-center" >
           <img src="static/images/arsenal-canon.png" alt="" 
-            className="w-60"
+            className="min-[350px]:w-[150px] lg:w-60"
           />
 
-          <div className="-mt-6 overflow-hidden wrapper">
-              <h2 className="arsenal text-2xl  font-bold ">
+          <div className="-mt-6 overflow-hidden wrapper
+            max-[500px]:-mt-3
+          ">
+              <h2 className="arsenal text-2xl  font-bold 
+                max-[500px]:text-base
+              ">
                 <span className="letter relative">A</span>
                 <span className="letter relative">R</span>
                 <span className="letter relative">S</span>
@@ -112,11 +116,13 @@ export default function App() {
                 <span className="letter relative">L</span>
                 &nbsp;
               </h2>
-              <h3 className="bhm text-xl flex gap-2">
+              <h3 className="bhm text-xl flex gap-2
+                max-[500px]:text-xs
+              ">
                 BLACK HISTORY M<span>            
-                <img src="static/images/football.gif" alt="Loading..." className="-ml-1" />
+                <img src="static/images/football.gif" alt="Loading..." className="-ml-1 max-[500px]:w-5 max-[500px]:-ml-[5px]" />
                 </span>
-                <span className="-ml-2">NTH</span>
+                <span className="-ml-2 max-[500px]:-ml-[12px]">NTH</span>
                 
               </h3>            
 
