@@ -43,7 +43,7 @@ const Thomas : React.FC <Props> =({}) => {
     return(
         <div className=" h-screen  flex  items-center gap-0 thomas-container"> 
             <img src="static/images/text-thomas.png" alt="Thomas"
-                className="relative h-screen  -left-[14%] thomas-text
+                className="relative h-full  -left-[14%] thomas-text
                     min-[370px]:-left-[13%]
                     min-[390px]:-left-[17%]
                     min-[410px]:-left-[16%]

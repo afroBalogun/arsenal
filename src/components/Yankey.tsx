@@ -100,8 +100,8 @@ const Yankey : React.FC <Props> = ({screenHeight}) => {
             </div>
             
             <img src="static/images/unapologetically.png" alt="Unapologetically" 
-                className="relative w-40  -left-[50px]"
-                style={{ top: `-${1.65 * screenHeight}px` }}
+                className="relative w-32  -left-[50px]"
+                style={{ top: `-${1.6 * screenHeight}px` }}
 
             />
         </div>
