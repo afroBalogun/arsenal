@@ -52,7 +52,7 @@ const Thomas : React.FC <Props> =({}) => {
                     min-[912px]:-left-[19%]
                     lg:-left-[19%]
                     xl:-left-[22%]
-                    min-[1400px]:-left-[40%]
+                    min-[1400px]:-left-[20%]
 
                 "
             />
