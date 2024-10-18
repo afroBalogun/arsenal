@@ -52,6 +52,8 @@ const Thomas : React.FC <Props> =({}) => {
                     min-[912px]:-left-[19%]
                     lg:-left-[19%]
                     xl:-left-[22%]
+                    min-[1400px]:-left-[40%]
+
                 "
             />
             <div className="w-1/3 galler-container flex flex-col items-center">
