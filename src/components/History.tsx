@@ -37,17 +37,17 @@ const History : React.FC <Props> = ({screenHeight}) => {
     return(
         <div className="w-full h-screen flex flex-col items-center history">       
             <img src="static/images/team.png" alt="Team" 
-                className="h-screen team"
+                className="h-full team"
             />
              <img
                   src="static/images/history-made.png"
                   alt="History-made"
-                  className="h-screen relative made team"
+                  className="h-full relative made team"
                   style={{ top: `-${screenHeight}px` }}
                 />
 
              <img src="static/images/stars.png" alt="Stars" 
-                 className="h-screen relative stars team"
+                 className="h-full relative stars team"
                  style={{ top: `-${2 * screenHeight}px` }}
             />
         </div>

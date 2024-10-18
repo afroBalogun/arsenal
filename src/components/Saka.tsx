@@ -39,12 +39,12 @@ const Saka : React.FC <Props> =({screenHeight}) => {
                 className="h-full "
             />
             <img src="static/images/b.png" alt="B" 
-                className="h-screen relative b"
+                className="h-full relative b"
                 style={{ top: `-${screenHeight}px` }}
             />
 
             <img src="static/images/2.png" alt="2" 
-                className="h-screen relative red2"
+                className="h-full relative red2"
                 style={{ top: `-${2 * screenHeight}px` }}
             />
         </div>
