@@ -51,7 +51,6 @@ const Henry : React.FC <Props> = ({screenHeight}) => {
                 scrollTrigger: {
                     trigger: '.henry-container',
                     start: "650% top",
-                    markers: true
                 },
                 opacity: 0,
                 duration: .5,

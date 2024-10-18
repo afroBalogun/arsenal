@@ -12,10 +12,12 @@ import Saka from "./components/Saka.tsx";
 import "./style.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 
-gsap.registerPlugin(ScrollTrigger);
 
 export default function App() {
+  gsap.registerPlugin(ScrollTrigger);
+
   const containerRef = useRef<HTMLDivElement>(null);
   const [screenHeight, setScreenHeight] = useState(window.innerHeight);
   const [loading, setLoading] = useState(true);
@@ -26,13 +28,41 @@ export default function App() {
     };
     window.addEventListener("resize", handleResize);
 
-    // Simulate loading delay
-    setTimeout(() => setLoading(false), 2000); // Adjust as needed
+    //  loading delay
+    setTimeout(() => setLoading(false), 4000); 
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  useGSAP( () => {
+    gsap.timeline()
+    gsap.from('.arsenal', {
+      opacity: 0,
+      xPercent: -100,
+      duration: .5,
+    })
+
+    gsap.from('.bhm', {
+      opacity: 0,
+      duration: 1,
+      delay: .5
+    })
+    gsap.to('.letter', {
+      opacity: 0,
+      duration: .5,
+      delay: 1,
+      stagger: .2
+    })
+    gsap.to('.bhm', {
+      fontWeight: 600,
+      duration: .2,
+      delay: 3,
+      ease: 'power1'
+    })
+
+  })
 
   useLayoutEffect(() => {
     if (!loading) {
@@ -40,7 +70,7 @@ export default function App() {
       const container = containerRef.current;
   
       if (container) {
-        // Delay to ensure that all images or dynamic content are fully loaded
+        // Delay 
         setTimeout(() => {
           const totalWidth = sections.reduce((acc, section) => {
             return acc + section.getBoundingClientRect().width;
@@ -65,8 +95,34 @@ export default function App() {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
-        <img src="static/images/football.gif" alt="Loading..." className="" />
+      <div className="flex justify-center items-center h-screen flex-col">
+        <div className="font-montserrat flex items-center" >
+          <img src="static/images/arsenal-canon.png" alt="" 
+            className="w-60"
+          />
+
+          <div className="-mt-6 overflow-hidden wrapper">
+              <h2 className="arsenal text-2xl  font-bold ">
+                <span className="letter relative">A</span>
+                <span className="letter relative">R</span>
+                <span className="letter relative">S</span>
+                <span className="letter relative">E</span>
+                <span className="letter relative">N</span>
+                <span className="letter relative">A</span>
+                <span className="letter relative">L</span>
+                &nbsp;
+              </h2>
+              <h3 className="bhm text-xl flex gap-2">
+                BLACK HISTORY M<span>            
+                <img src="static/images/football.gif" alt="Loading..." className="-ml-1" />
+                </span>
+                <span className="-ml-2">NTH</span>
+                
+              </h3>            
+
+          </div>
+          
+        </div>
       </div>
     );
   }
