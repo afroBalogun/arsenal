@@ -6,6 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Updock&display=swap');
 
+*{
+    scrollbar-color: #c11818 transparent;
+    scrollbar-width: thin;
+}
+
+
 body{
     overscroll-behavior: none;
 }
@@ -15,9 +21,9 @@ body{
 }
 
 .david {
-    position: relative; /* or absolute */
-    top: 0; /* Adjust as needed */
-    left: 0; /* Adjust as needed */
-    transform: translateY(0); /* Reset any unintended transformations */
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    transform: translateY(0); 
   }
   
