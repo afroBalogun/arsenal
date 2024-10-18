@@ -29,7 +29,7 @@ export default function App() {
     window.addEventListener("resize", handleResize);
 
     //  loading delay
-    // setTimeout(() => setLoading(false), 4000); 
+    setTimeout(() => setLoading(false), 4000); 
 
     return () => {
       window.removeEventListener("resize", handleResize);
