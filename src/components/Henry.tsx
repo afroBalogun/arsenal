@@ -28,7 +28,7 @@ const Henry : React.FC <Props> = ({screenHeight}) => {
             gsap.from(' .vavavoom', {
                 scrollTrigger: {
                     trigger: '.henry-container',
-                    start: "700% top",
+                    start: "650% top",
                 },
                 opacity: 0,
                 duration: 1,
@@ -39,7 +39,7 @@ const Henry : React.FC <Props> = ({screenHeight}) => {
             gsap.from(' .henry-text', {
                 scrollTrigger: {
                     trigger: '.henry-container',
-                    start: "700% top",
+                    start: "650% top",
                 },
                 opacity: 0,
                 duration: .5,
@@ -50,7 +50,8 @@ const Henry : React.FC <Props> = ({screenHeight}) => {
             gsap.from('.h-sign', {
                 scrollTrigger: {
                     trigger: '.henry-container',
-                    start: "700% top",
+                    start: "650% top",
+                    markers: true
                 },
                 opacity: 0,
                 duration: .5,
@@ -61,7 +62,7 @@ const Henry : React.FC <Props> = ({screenHeight}) => {
             gsap.from('.audio-producer', {
                 scrollTrigger: {
                     trigger: '.henry-container',
-                    start: "700% top",
+                    start: "650% top",
                 },
                 opacity: 0,
                 duration: .5,
