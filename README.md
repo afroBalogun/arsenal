@@ -39,7 +39,7 @@ This project is a tribute to Arsenal's Black football legends, featuring animate
 
 * React
 * Tailwind CSS
-* Framer Motion (for animations)
+* GSAP (for animations)
 * Vercel (deployment)
 
 ---
